@@ -1,0 +1,22 @@
+{
+  "name": "rapid-screensaver",
+  "description": "A pure CSS screensaver for our internal status monitor",
+  "main": "index.js",
+  "authors": [
+    "Rapid Web Ltd"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "screensaver",
+    "less"
+  ],
+  "homepage": "https://github.com/ojdon/rapid-screensaver",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

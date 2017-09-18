@@ -1,0 +1,26 @@
+// Palette
+@green: #5AA55D;
+@yellow: #FBBF15;
+@red: #BA2C1C;
+@purple: #786099;
+@blue: #58C2EB;
+
+.screensaver {
+	animation: gradient 60s infinite alternate;
+	background: linear-gradient(45deg, @green, @yellow, @red, @blue);
+	background-size: 500% 500%;
+	position:fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100wh;
+	height: 100vh;
+	z-index:999999999999;
+}
+
+@keyframes gradient {
+	0% {background-position: 0% 100%;}
+	50% {background-position: 100% 0%;}
+	100% {background-position: 0% 100%;}
+}
