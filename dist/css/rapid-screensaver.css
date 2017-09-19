@@ -1,6 +1,6 @@
 .screensaver {
   animation: gradient 60s infinite alternate;
-  background: linear-gradient(45deg, #5AA55D, #FBBF15, #BA2C1C, #58C2EB);
+  background: linear-gradient(45deg, #BA2C1C, #FBBF15, #5AA55D, #58C2EB, #786099);
   background-size: 500% 500%;
   position: fixed;
   top: 0;
